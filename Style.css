@@ -1,4 +1,4 @@
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@ body {
     font-size: 130%;
   }
   
-  .container {
+  .container{
     background: #000000d0;
     color: white;
     padding: 2em;
@@ -20,13 +20,13 @@ body {
     margin: 1em;
   }
   
-  .search {
+  .search{
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  button {
+  button{
     margin: 0.5em;
     border-radius: 50%;
     border: none;
@@ -39,7 +39,7 @@ body {
     transition: 0.2s ease-in-out;
   }
   
-  input.search-bar {
+  input.search-bar{
     border: none;
     outline: none;
     padding: 0.4em 1em;
@@ -51,32 +51,32 @@ body {
     width: calc(100% - 100px);
   }
   
-  button:hover {
+  button:hover{
     background: #7c7c7c6b;
   }
   
-  h1.temp {
+  h1.temp{
     margin: 0;
     margin-bottom: 0.4em;
   }
   
-  .display-icon {
+  .display-icon{
     display: flex;
     align-items: center;
   }
   
-  .description {
+  .description{
     text-transform: capitalize;
     margin-left: 8px;
   }
   
-  .weather .loading {
+  .weather .loading{
     visibility: hidden;
     max-height: 20px;
     position: relative;
   }
   
-  .weather .loading:after {
+  .weather .loading:after{
     visibility: visible;
     content: "Loading...";
     color: white;
